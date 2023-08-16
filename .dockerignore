@@ -1,0 +1,10 @@
+.env
+.gitignore
+README.md
+test
+Makefile
+vault_config.hcl
+nginx.conf
+
+process
+postman

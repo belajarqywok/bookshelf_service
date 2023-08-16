@@ -39,6 +39,23 @@ const showBookResponse = async (
 
         status : status,        // string
         data   : {
+            book : bookDatas   // array
+        }
+        
+    }
+
+}
+
+
+
+const showBooksResponse = async (
+    status, bookDatas
+) => {
+
+    return {
+
+        status : status,        // string
+        data   : {
             books : bookDatas   // array
         }
         
@@ -55,6 +72,8 @@ module.exports = {
 
     addBookResponse,
 
-    showBookResponse
+    showBookResponse,
+    
+    showBooksResponse
 
 }
